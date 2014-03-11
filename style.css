@@ -1,0 +1,207 @@
+/*
+Theme Name:     Kittatinny 5 Responsive Child
+Theme URI:      http://kittatinny5.org/
+Description:    Child theme for the Responsive theme customized for use by Kittatinny 5.
+Author:         Eric Silva
+Author URI:     http://ericsilva.org
+Template:       responsive
+Version:        1.0.0
+*/
+
+@import url("../responsive/core/css/style.min.css");
+
+html, body, iframe { height:100%; }
+
+iframe { 
+  display:block; 
+  width:100%; 
+  border: none; 
+  font-family: 'Droid Sans', sans-serif; 
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+}
+
+input, textarea, select, option {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#wrapper-two {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  clear: both;
+  margin: 20px auto 20px auto;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+}
+
+#header .headerlinks {
+  position: relative;
+  top: 25px;
+  margin: 5px 5px 30px 0;
+  padding: 0;
+  font-size: 0.85em;
+  float: right;
+}
+
+h1.featured-title {
+  font-size: 3.8em;
+}
+
+h2.featured-subtitle {
+  font-size: 1.3em;
+}
+
+h1.post-title {
+  font-size: 2.2em;
+}
+
+div#content-archive h1.post-title {
+  font-size: 1.75em;
+}
+
+div#featured {
+  padding-bottom: 10px;
+  border: 0px;
+}
+
+div#featured p {
+  text-align: justify;
+  font-size: 1.0em;
+  padding: 0 15px 0 15px;
+}
+
+/*
+div.post-entry p {
+  text-align: left !important;
+  font-size: 1.0em !important;
+  padding: 0 !important;
+}
+*/
+
+.col-620 { 
+  display: inline-block;
+}
+
+dt.gallery-icon {
+  margin-right: 5px;
+}
+
+.yarpp-related h3 {
+  font-size: 1.2em;
+}
+
+blockquote p {
+  font-family: inherit;
+  font-style: italic;
+  font-size: inherit;
+  line-height: 22px;
+}
+
+/* Lodge Award Recipients Formatting */
+div.founder, div.spirit, div.service, div.adviser, div.ladviser, div.chiefs, div.archive { 
+  float: left; 
+  margin: 10px; 
+  padding: 0px 10px 10px 10px; 
+  vertical-align: top; 
+  background-color: #fbfbfb; 
+  border: 1px solid #d6d6d6; 
+  border-radius: 6px; 
+  font-size: 0.9em;
+  width: 158px;
+}  
+
+div.founder { 
+  height: 125px;
+}
+
+div.spirit { 
+  height: 190px;
+}
+
+div.service { 
+  height: 180px;
+}
+
+div.adviser { 
+  height: 305px;
+}
+
+div.ladviser { 
+  height: 100px;
+}
+
+div.chiefs {
+  height: 165px;
+}
+
+div.archive { 
+  width: 150px; 
+  height: 215px;
+}
+
+/* Social Icons */
+#header .social-icons {
+  list-style: none;
+  line-height: normal;
+    padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+#header .yelp-icon,
+#header .vimeo-icon, 
+#header .youtube-icon, 
+#header .twitter-icon,
+#header .facebook-icon, 
+#header .linkedin-icon, 
+#header .rss-feed-icon, 
+#header .instagram-icon,
+#header .pinterest-icon, 
+#header .foursquare-icon,
+#header .google-plus-icon, 
+#header .stumble-upon-icon {
+  display: inline;
+  margin: 1px;
+  padding-left: 3px;
+}
+
+
+/* =Responsive (Mobile) Design
+-------------------------------------------------------------- */
+@media screen and (max-width: 980px) {
+  .col-620 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .col-620 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-620 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .col-620 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .col-620 {
+    width: 98%;
+  }
+}
