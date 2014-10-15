@@ -12,11 +12,11 @@ Version:        1.0.0
 
 html, body, iframe { height:100%; }
 
-iframe { 
-  display:block; 
-  width:100%; 
-  border: none; 
-  font-family: 'Droid Sans', sans-serif; 
+iframe {
+  display:block;
+  width:100%;
+  border: none;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -86,7 +86,7 @@ div.post-entry p {
 }
 */
 
-.col-620 { 
+.col-620 {
   display: inline-block;
 }
 
@@ -106,35 +106,35 @@ blockquote p {
 }
 
 /* Lodge Award Recipients Formatting */
-div.founder, div.spirit, div.service, div.adviser, div.ladviser, div.chiefs, div.archive { 
-  float: left; 
-  margin: 10px; 
-  padding: 0px 10px 10px 10px; 
-  vertical-align: top; 
-  background-color: #fbfbfb; 
-  border: 1px solid #d6d6d6; 
-  border-radius: 6px; 
+div.founder, div.spirit, div.service, div.adviser, div.ladviser, div.chiefs, div.archive {
+  float: left;
+  margin: 10px;
+  padding: 0px 10px 10px 10px;
+  vertical-align: top;
+  background-color: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
   font-size: 0.9em;
   width: 158px;
-}  
+}
 
-div.founder { 
+div.founder {
   height: 125px;
 }
 
-div.spirit { 
+div.spirit {
   height: 190px;
 }
 
-div.service { 
+div.service {
   height: 180px;
 }
 
-div.adviser { 
+div.adviser {
   height: 305px;
 }
 
-div.ladviser { 
+div.ladviser {
   height: 100px;
 }
 
@@ -142,9 +142,55 @@ div.chiefs {
   height: 165px;
 }
 
-div.archive { 
-  width: 150px; 
+div.archive {
+  width: 150px;
   height: 215px;
+}
+
+div.minutes {
+  float: left;
+  margin: 5px;
+  padding: 0px 10px 0px 10px;
+  vertical-align: top;
+  background-color: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  width: 90%;
+  font-size: 0.9em;
+  height: auto;
+}
+
+/* Vigil Honor Roll Page */
+table.vigil {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+table.vigil th {
+  border: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
+  text-decoration:underline;
+  white-space: nowrap;
+}
+table.vigil td {
+  border: 0;
+  padding: 3px;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  font-size: 0.9em;
+}
+table.vigil td.year {
+  padding: 0;
+  font-size: 1.3em !important;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: left;
+  border-top: 1px solid #d6d6d6 !important;
+  border-bottom: 1px solid #d6d6d6 !important;
 }
 
 /* Social Icons */
@@ -157,16 +203,16 @@ div.archive {
 }
 
 #header .yelp-icon,
-#header .vimeo-icon, 
-#header .youtube-icon, 
+#header .vimeo-icon,
+#header .youtube-icon,
 #header .twitter-icon,
-#header .facebook-icon, 
-#header .linkedin-icon, 
-#header .rss-feed-icon, 
+#header .facebook-icon,
+#header .linkedin-icon,
+#header .rss-feed-icon,
 #header .instagram-icon,
-#header .pinterest-icon, 
+#header .pinterest-icon,
 #header .foursquare-icon,
-#header .google-plus-icon, 
+#header .google-plus-icon,
 #header .stumble-upon-icon {
   display: inline;
   margin: 1px;
