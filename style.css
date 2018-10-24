@@ -10,11 +10,15 @@ Version:        1.0.0
 
 @import url("../responsive/core/css/style.min.css");
 
-html, body, iframe { height:100%; }
+html,
+body,
+iframe {
+  height: 100%;
+}
 
 iframe {
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
   border: none;
   font-family: 'Droid Sans', sans-serif;
   font-size: 14px;
@@ -25,9 +29,27 @@ body {
   font-size: 14px;
 }
 
-input, textarea, select, option {
+input,
+textarea,
+select,
+option {
   font-family: inherit;
   font-size: inherit;
+}
+
+/* Remove author information */
+.entry-meta .byline,
+.entry-meta .cat-links,
+.post-meta .byline,
+.post-meta .cat-links,
+.post-meta .author,
+.post-meta .vcard {
+  display: none;
+}
+
+/* Remove comments link from post */
+.post-meta .comments-link {
+  display: none;
 }
 
 #wrapper-two {
@@ -106,7 +128,13 @@ blockquote p {
 }
 
 /* Lodge Award Recipients Formatting */
-div.founder, div.spirit, div.service, div.adviser, div.ladviser, div.chiefs, div.archive {
+div.founder,
+div.spirit,
+div.service,
+div.adviser,
+div.ladviser,
+div.chiefs,
+div.archive {
   float: left;
   margin: 10px;
   padding: 0px 10px 10px 10px;
@@ -167,6 +195,7 @@ table.officers {
   padding: 0px;
   border: 0px;
 }
+
 table.officers td {
   padding: 0px;
   border: 0px;
@@ -174,19 +203,21 @@ table.officers td {
 
 /* Vigil Honor Roll Page */
 table.vigil {
-    border: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
 }
+
 table.vigil th {
   border: 0;
   padding: 0;
   text-align: left;
   font-weight: bold;
-  text-decoration:underline;
+  text-decoration: underline;
   white-space: nowrap;
 }
+
 table.vigil td {
   border: 0;
   padding: 3px;
@@ -195,6 +226,7 @@ table.vigil td {
   white-space: nowrap;
   font-size: 0.9em;
 }
+
 table.vigil td.year {
   padding: 0;
   font-size: 1.3em !important;
@@ -209,7 +241,7 @@ table.vigil td.year {
 #header .social-icons {
   list-style: none;
   line-height: normal;
-    padding: 0;
+  padding: 0;
   margin: 0;
   text-align: right;
 }
