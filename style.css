@@ -146,6 +146,20 @@ div.archive {
   width: 158px;
 }
 
+div.jameswest {
+  float: left;
+  margin: 10px;
+  padding: 0px 10px 10px 10px;
+  vertical-align: top;
+  background-color: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  font-size: 0.9em;
+  width: 90%;
+  font-size: 0.9em;
+  height: auto;
+}
+
 div.founder {
   height: 125px;
 }
